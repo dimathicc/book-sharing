@@ -1,9 +1,16 @@
 package ru.dmitryshvalev.library.models;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
 public class Person {
     private int id;
 
+    @NotEmpty
+    @Size(min = 2, max = 100, message = "size 2 - 100 chars")
     private String name;
+    @Min(value = 1900, message = "min age is 1900")
     private int birthDate;
 
     public Person() {}

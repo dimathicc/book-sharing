@@ -1,11 +1,24 @@
 package ru.dmitryshvalev.library.models;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
 public class Book {
     private int id;
 
+    @NotEmpty
+    @Size(min = 2, max = 100)
     private String title;
+
+    @NotEmpty
+    @Size(min = 2, max = 100)
     private String author;
+
+    @Min(value = 1500)
     private int production;
+
+    public Book() {}
 
     public Book(int id, String title, String author, int production) {
         this.id = id;
@@ -14,8 +27,7 @@ public class Book {
         this.production = production;
     }
 
-    public Book() {
-    }
+
 
     public int getId() {
         return id;
