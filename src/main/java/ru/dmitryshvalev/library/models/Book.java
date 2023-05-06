@@ -20,8 +20,7 @@ public class Book {
 
     public Book() {}
 
-    public Book(int id, String title, String author, int production) {
-        this.id = id;
+    public Book(String title, String author, int production) {
         this.title = title;
         this.author = author;
         this.production = production;
@@ -59,5 +58,15 @@ public class Book {
 
     public void setProduction(int production) {
         this.production = production;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", production=" + production +
+                '}';
     }
 }

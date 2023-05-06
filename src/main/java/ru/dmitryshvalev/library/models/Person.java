@@ -15,8 +15,7 @@ public class Person {
 
     public Person() {}
 
-    public Person(int id, String name, int birthDate) {
-        this.id = id;
+    public Person(String name, int birthDate) {
         this.name = name;
         this.birthDate = birthDate;
     }
@@ -41,5 +40,14 @@ public class Person {
 
     public void setBirthDate(int birthDate) {
         this.birthDate = birthDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", birthDate=" + birthDate +
+                '}';
     }
 }

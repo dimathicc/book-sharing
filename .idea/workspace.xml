@@ -11,34 +11,44 @@
   <component name="ChangeListManager">
     <list default="true" id="e7414029-2666-4f88-a2d3-2c7d449ab20f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../../.idea/Downloads.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FilmStudio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FilmStudio/src/main/java/org/example/model/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FilmStudio/src/main/java/org/example/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HibernateAppDemo/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/controllers/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/dao/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/models/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dmitryshvalev/library/util/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/controllers/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/controllers/BooksController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/controllers/PeopleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/dao/BookDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/dao/PersonDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/dao/PersonDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/models/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/models/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/models/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/util/PersonValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/classes/ru/dmitryshvalev/library/util/PersonValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/views/books/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Library/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Library/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/controllers/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/controllers/BooksController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/controllers/PeopleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/dao/BookDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/dao/PersonDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/dao/PersonDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/models/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/models/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/models/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/util/PersonValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dmitryshvalev/library/util/PersonValidator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +226,8 @@
       <updated>1682599471518</updated>
       <workItem from="1682599472662" duration="23507000" />
       <workItem from="1682761681657" duration="2833000" />
-      <workItem from="1682784650028" duration="791000" />
+      <workItem from="1682784650028" duration="1207000" />
+      <workItem from="1683390992760" duration="3027000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 package ru.dmitryshvalev.library.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -14,6 +15,7 @@ public class BookDAO {
     private final JdbcTemplate jdbcTemplate;
 
 
+    @Autowired
     public BookDAO(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
@@ -22,13 +24,13 @@ public class BookDAO {
         return jdbcTemplate.query("SELECT * FROM book", new BeanPropertyRowMapper<>(Book.class));
     }
 
-    public void save(Book book) {
-        jdbcTemplate.update("INSERT INTO book(title, author, production) VALUES (?, ?, ?)", book.getTitle(), book.getAuthor(), book.getProduction());
-    }
-
     public Book show(int id) {
         return jdbcTemplate.query("SELECT * FROM book WHERE id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Book.class))
                 .stream().findAny().orElse(null);
+    }
+
+    public void save(Book book) {
+        jdbcTemplate.update("INSERT INTO book(title, author, production) VALUES (?, ?, ?)", book.getTitle(), book.getAuthor(), book.getProduction());
     }
 
     public void update(int id, Book updatedBook) {
@@ -41,8 +43,8 @@ public class BookDAO {
     }
 
     public Optional<Person> getBookOwner(int id) {
-        return jdbcTemplate.query("SELECT person.* FROM book JOIN person on person.id=book.person_id " +
-                "WHERE book.id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Person.class))
+        return jdbcTemplate.query("SELECT person.* FROM book JOIN person on book.person_id = person.id " +
+                "WHERE book.id = ?", new Object[]{id}, new BeanPropertyRowMapper<>(Person.class))
                 .stream().findAny();
     }
 
