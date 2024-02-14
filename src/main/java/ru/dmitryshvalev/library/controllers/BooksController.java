@@ -49,7 +49,6 @@ public class BooksController {
     @GetMapping("/new")
     public String newBook(@ModelAttribute("book")Book book) { return "books/new"; }
 
-    // из-за него не работает
     @PostMapping()
     public String create(@ModelAttribute("book") @Valid Book book, BindingResult bindingResult) {
         if (bindingResult.hasErrors())
